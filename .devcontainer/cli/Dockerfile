@@ -49,3 +49,5 @@ RUN echo "www-data ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/www-data && \
     chmod 0440 /etc/sudoers.d/www-data
 
 USER www-data
+
+CMD ["sleep", "infinity"]
