@@ -1,19 +1,19 @@
 {
-    "name": "Laravel",
-    "service": "cli",
-    "remoteUser": "www-data",
-    "shutdownAction": "stopCompose",
-    "workspaceFolder": "/workspaces/laravel",
-    "dockerComposeFile": "docker-compose.yaml",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "bmewburn.vscode-intelephense-client",
-                "eamodio.gitlens",
-                "EditorConfig.EditorConfig",
-                "mikestead.dotenv",
-                "onecentlin.laravel-blade"
-            ]
-        }
+  "name": "Laravel",
+  "service": "cli",
+  "remoteUser": "www-data",
+  "shutdownAction": "stopCompose",
+  "workspaceFolder": "/var/www/html",
+  "dockerComposeFile": "docker-compose.yaml",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bmewburn.vscode-intelephense-client",
+        "eamodio.gitlens",
+        "EditorConfig.EditorConfig",
+        "mikestead.dotenv",
+        "onecentlin.laravel-blade"
+      ]
     }
+  }
 }
