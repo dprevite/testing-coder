@@ -1,7 +1,7 @@
 {
     "name": "Laravel",
     "service": "cli",
-    "remoteUser": "user",
+    "remoteUser": "www-data",
     "shutdownAction": "stopCompose",
     "workspaceFolder": "/workspaces/laravel",
     "dockerComposeFile": "docker-compose.yaml",
