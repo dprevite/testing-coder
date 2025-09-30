@@ -20,7 +20,7 @@
 # # Prevent container from exiting early.
 # CMD ["sleep", "infinity"]
 
-FROM serversideup/php:8.1-fpm-nginx-alpine-v3.5.2 AS base
+FROM serversideup/php:8.4-cli-alpine AS base
 
 ENV SSL_MODE="off"
 
