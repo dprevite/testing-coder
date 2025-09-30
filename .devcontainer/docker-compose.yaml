@@ -1,7 +1,8 @@
 services:
   cli:
-    build: cli
-    target: development
+    build:
+      context: cli
+      target: development
     volumes:
       - ..:/workspaces/laravel
 
