@@ -37,7 +37,7 @@ RUN install-php-extensions gd exif intl session fileinfo xml gnupg imagick soap 
 RUN apk add --no-cache nodejs npm git jq xmlsec
 
 # ----------------------------------------------------------------------------------------------
-FROM root AS development
+FROM base AS development
 
 USER root
 
